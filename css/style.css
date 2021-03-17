@@ -2564,6 +2564,12 @@ div.dt-button-info {
 .img-fluid {
   max-width: 80%;
 }
+@media screen and (max-width: 991px ) {
+  .img-fluid {
+    margin-top: 50px;
+    max-width: 80%;
+  }
+}
 .small, small {
   font-size: 180%;
 }
@@ -9049,8 +9055,14 @@ body.skin-2 #wrapper {
 }
 .juan {
   position: relative;
-  left: 380px;
+  left: 0%;
   top: 10px;
+}
+@media screen and (min-width:577px) {
+  .juan {
+    position: relative;
+    left: 33%;
+  }
 }
 /*
  *
